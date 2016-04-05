@@ -1,0 +1,25 @@
+{
+	"name": "iecap",
+	"version": "1.0.0",
+	"description": "JavaScript library to detect the version of Internet Explorer and display a warning screen",
+	"license": "MIT",
+	"authors": [
+		"Ilya Fedotov <ilya@fedotov.me>"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:helloilya/iecap.git"
+	},
+	"main": "iecap.min.js",
+	"ignore": [
+		"**/.*"
+	],
+	"keywords": [
+		"ie",
+		"browser",
+		"javascript",
+		"old-browser",
+		"internet-explorer",
+		"explorer"
+	]
+}
