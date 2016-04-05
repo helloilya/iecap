@@ -1,9 +1,9 @@
 /**
  *	JavaScript library to detect the version of Internet Explorer and display a warning screen
  *
- *	@version: 1.0.0
+ *	@version: 1.0.1
  *	@author Ilya Fedotov
- *  @link: github.com/helloilya/iecap
+ *	@link: github.com/helloilya/iecap
  *	@license: MIT
  */
 
@@ -26,7 +26,7 @@
 
 	// Template
 
-	lib.template = '<div class="iecap"><h5 class="iecap-title">{title}</h5><p class="iecap-description">{description}</p></div><ul class="iecap-list"><li class="explorer"><a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" title="Internet Explorer">Internet Explorer</a></li><li class="chrome"><a href="http://www.google.com/chrome/browser/" title="Google Chrome">Google Chrome</a></li><li class="firefox"><a href="http://www.mozilla.org/firefox/desktop/" title="Mozilla Firefox">Mozilla Firefox</a></li><li class="safari"><a href="http://www.apple.com/safari/" title="Apple Safari">Apple Safari</a></li></ul></div>';
+	lib.template = '<div class="iecap"><h5 class="iecap-title">{title}</h5><p class="iecap-description">{description}</p><ul class="iecap-list"><li class="explorer"><a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" title="Internet Explorer">Internet Explorer</a></li><li class="chrome"><a href="http://www.google.com/chrome/browser/" title="Google Chrome">Google Chrome</a></li><li class="firefox"><a href="http://www.mozilla.org/firefox/desktop/" title="Mozilla Firefox">Mozilla Firefox</a></li><li class="safari"><a href="http://www.apple.com/safari/" title="Apple Safari">Apple Safari</a></li></ul></div>';
 
 	// Defaults options
 
@@ -110,8 +110,7 @@
 			body = document.getElementsByTagName('body')[0];
 
 		if(version && version <= availability) {
-			body.innerHTML += lib.template.replace('{title}', lib.languages[language].title)
-										  .replace('{description}', lib.languages[language].description);
+			body.innerHTML += lib.template.replace('{title}', lib.languages[language].title).replace('{description}', lib.languages[language].description);
 		}
 
 	};

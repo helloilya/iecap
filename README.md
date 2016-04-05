@@ -2,6 +2,10 @@
 
 > JavaScript library to detect the version of Internet Explorer and display a warning screen.
 
+### Demo
+
+Example is located [here](http://fedotov.work/iecap/).
+
 ### Usage
 
 Install via bower:
@@ -35,6 +39,7 @@ The some methods use the following params:
 
 ### Release History
 
+* 1.0.1 — Fixed bugs.
 * 1.0.0 — Added bower support.
 
 ### License

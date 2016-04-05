@@ -1,6 +1,6 @@
 {
 	"name": "iecap",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "JavaScript library to detect the version of Internet Explorer and display a warning screen",
 	"license": "MIT",
 	"authors": [
