@@ -39,6 +39,7 @@ The some methods use the following params:
 
 ### Release History
 
+* 1.1.1 — Fixed bugs.
 * 1.1.0 — Added demo and defaults styles.
 * 1.0.1 — Fixed bugs.
 * 1.0.0 — Added bower support.

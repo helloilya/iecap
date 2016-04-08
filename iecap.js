@@ -1,7 +1,7 @@
 /**
  *	JavaScript library to detect the version of Internet Explorer and display a warning screen
  *
- *	@version: 1.1.0
+ *	@version: 1.1.1
  *	@author Ilya Fedotov
  *	@link: github.com/helloilya/iecap
  *	@license: MIT
@@ -86,7 +86,7 @@
 		availability = Number(availability) || lib.options.availability;
 
 		var version = getVersion(),
-				body = document.getElementsByTagName('body')[0];
+			body = document.getElementsByTagName('body')[0];
 
 		if(version) { addClass('ie-' + version, body); }
 		if(version && version <= availability) { addClass('ie-old', body); }
@@ -106,7 +106,7 @@
 		language = language || lib.options.language;
 		availability = Number(availability) || lib.options.availability;
 
-		var version = displayVersion(),
+		var version = displayVersion(availability),
 			body = document.getElementsByTagName('body')[0];
 
 		if(version && version <= availability) {
