@@ -14,6 +14,12 @@ Install via bower:
 $ bower install iecap --save
 ```
 
+or via npm:
+
+```
+$ npm install iecap --save
+```
+
 or download the `iecap.min.js` file into your repo.
 
 Then, include script file and initialize the library:
@@ -39,6 +45,7 @@ The some methods use the following params:
 
 ### Release History
 
+* 1.2.0 — Added npm support.
 * 1.1.1 — Fixed bugs.
 * 1.1.0 — Added demo and defaults styles.
 * 1.0.1 — Fixed bugs.
